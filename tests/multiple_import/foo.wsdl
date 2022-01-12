@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="foo" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata">
+
+  <wsdl:types>
+    <xsd:schema version="1.0.0">
+      <xsd:import schemaLocation="foo_schema_1.xsd" />
+    </xsd:schema>
+  </wsdl:types>
+
+  <wsdl:message name="quuxMessage">
+    <wsdl:part name="fault" element="stText16" />
+  </wsdl:message>
+</wsdl:definitions>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="foo">
+
+  <xsd:import schemaLocation="foo_schema_2.xsd"/>
+
+  <!-- ::: -->
+
+  <xsd:simpleType name="stText35">
+    <xsd:restriction base="xsd:string">
+      <xsd:minLength value="1" />
+      <xsd:maxLength value="35" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+</xsd:schema>
